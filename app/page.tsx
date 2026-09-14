@@ -10,7 +10,7 @@ type PortfolioSlide = {
 type Project = { id:string; title:string; subtitle:string; highlight?:string; type:string; year:string; image?:string; thumb?:string; gallery?:string[]; slides?:PortfolioSlide[]; orbitalGallery?:boolean; tone?:string; href?:string; fit?:'cover'|'contain' };
 
 const projects: Project[] = [
-  { id:'01', title:'重生之亡妻回忆录', subtitle:'女明星因一枚旧耳钉，穿越回刑警前女友死亡之前，在试图改写她命运的过程中，发现那场死亡背后隐藏着远比想象更复杂的真相。', highlight:'上线抖音 2 天获得 4.2 万+播放、3900+点赞。', type:'AI SHORT DRAMA / DIRECTION', year:'NEW', image:'/portfolio/reborn-wife-01.png', thumb:'/portfolio/reborn-wife-01.png', gallery:['/portfolio/reborn-wife-01.png','/portfolio/reborn-wife-02.png','/portfolio/reborn-wife-03.png'], href:'https://www.bilibili.com/video/BV1RnY66dETL/?share_source=copy_web&vd_source=de6d5034036a4e4397338488290df94e' },
+  { id:'01', title:'重生之亡妻回忆录', subtitle:'女明星因一枚旧耳钉，穿越回刑警前女友死亡之前，在试图改写她命运的过程中，发现那场死亡背后隐藏着远比想象更复杂的真相。', highlight:'上线抖音 2 天获得 5 万+播放、5000+点赞、500+收藏、100+评论。', type:'AI SHORT DRAMA / DIRECTION', year:'NEW', image:'/portfolio/reborn-wife-01.png', thumb:'/portfolio/reborn-wife-01.png', gallery:['/portfolio/reborn-wife-01.png','/portfolio/reborn-wife-02.png','/portfolio/reborn-wife-03.png'], href:'https://www.bilibili.com/video/BV1RnY66dETL/?share_source=copy_web&vd_source=de6d5034036a4e4397338488290df94e' },
   { id:'02', title:'一秒钟', subtitle:'借鉴日剧悬疑类型的叙事风格，以“一镜到底”形式创作的 AI 短片。三位关系错综复杂的人物因一次偶然相遇，被卷入一桩无差别杀人案，在彼此试探与线索交错中逐步逼近真相。', type:'AI SHORT FILM / DIRECTION', year:'NEW', image:'/portfolio/one-second.png', thumb:'/portfolio/one-second.png', href:'https://www.bilibili.com/video/BV1fUYB6fEh5/?share_source=copy_web&vd_source=de6d5034036a4e4397338488290df94e' },
   { id:'03', title:'重生之亡妻回忆录', subtitle:'围绕《重生之亡妻回忆录》两位女主展开的 IP 衍生内容创作。考虑到 AI 漫剧制作周期较长，为承接评论区的追更热度，同步更新角色日常与拍摄花絮，维持粉丝期待与 IP 活跃度。', type:'AI SOCIAL CONTENT / VISUAL', year:'NEW', image:'/portfolio/reborn-wife-02.png', thumb:'/portfolio/reborn-wife-02.png', orbitalGallery:true, gallery:['/portfolio/cp-bts-01.png','/portfolio/cp-bts-02.png','/portfolio/cp-bts-03.png','/portfolio/cp-bts-04.png','/portfolio/cp-bts-05.png','/portfolio/cp-bts-06.png'], href:'https://www.bilibili.com/video/BV1RnY66dETL/?share_source=copy_web&vd_source=de6d5034036a4e4397338488290df94e' },
   { id:'04', title:'封校年华', subtitle:'以抽帧、粤语旁白与片段叙事留下封校时期的影像注脚', type:'NARRATIVE SHORT', year:'04:03', image:'/portfolio/lockdown-years.jpg', href:'https://www.bilibili.com/video/BV13G411N7vg/', slides:[{src:'/portfolio/slides/lockdown-01.png'}] },
@@ -127,10 +127,10 @@ function RebornWifeDetail() {
         <h4>35 秒先导片，上线 2 天</h4>
         <p>个人首部原创 AI 漫剧，目前仅发布 35 秒先导片。</p>
         <ul className="result-metrics">
-          <li><strong>4.2 万+</strong><span>播放</span></li>
-          <li><strong>3900+</strong><span>点赞</span></li>
-          <li><strong>340</strong><span>收藏</span></li>
-          <li><strong>81</strong><span>评论</span></li>
+          <li><strong>5 万+</strong><span>播放</span></li>
+          <li><strong>5000+</strong><span>点赞</span></li>
+          <li><strong>500+</strong><span>收藏</span></li>
+          <li><strong>100+</strong><span>评论</span></li>
         </ul>
         <p className="editorial-note">抖音账号：<strong>86951311965</strong><br />B 站用于作品存档，传播数据以抖音为准。</p>
       </article>
